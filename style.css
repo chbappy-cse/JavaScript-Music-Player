@@ -91,3 +91,9 @@ nav .circle{
     background: #f53192;
     color: #fff;
 }
+
+@media(max-width: 1400px){
+    .song-img{
+        width: 130px;
+    }
+}
