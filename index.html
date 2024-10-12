@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An easy-to-use JavaScript toast notification system that shows success, error, and invalid input messages with icons. Simple to add to any project for user-friendly feedback and alerts.">
+    <meta name="keywords" content="JavaScript toast notifications, toast message system, success and error alerts, dynamic notifications, UI feedback system, customizable notifications, lightweight notification system, user input validation, notification popup, JavaScript UI components">
+
+    <meta property="og:title" content="Toast Notification JavaScript" />
+    <meta property="og:description" content="An easy-to-use JavaScript toast notification system that shows success, error, and invalid input messages with icons. Simple to add to any project for user-friendly feedback and alerts." />
+    <meta property="og:image" content="./img/Toast-Notification-JavaScript.png" />
+    <title>Music Player HTML CSS JavaScript DOM Project 2024</title>
+
+    <link rel="icon" type="image/x-icon" href="./img/chbappy-cse-favicon.png">
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <img src="/img/468-thumbnail.png" alt="song image" class="song-img">
+            <h1>Neffex Cold</h1>
+            <p>neffx</p>
+
+            <audio id="song">
+                <source src="/img/song.mp3" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="progress">
+
+            <div class="controls">
+                <div><i class="fa-solid fa-backward"></i></div>
+                <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+                <div><i class="fa-solid fa-forward"></i></div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+    <script src="./app.js"></script>
+</body>
+</html>
